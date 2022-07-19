@@ -4,18 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Components from "./components";
-import Example from './components';
+// import Example from './components';
 import Layouts from './layots';
-
+import Example from './calss';
+import Functioncomponent from './calss';
+import Form from './form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-  //   <App />
-  //   <Components />
-  //   <Example />
-  // </React.StrictMode>
-  <Layouts/>
+  <React.StrictMode>
+    <Form/>
+    {/* <App /> */}
+    {/* <Components />
+    <Example /> */}
+  </React.StrictMode>
+  // <Layouts/>
 );
 
 // If you want to start measuring performance in your app, pass a function
